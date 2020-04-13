@@ -1,11 +1,11 @@
 version: '3'
 services:
    catalog-module:
-     image: darshansbg/catalog-service
+     image: darshansbg/catalog-service:latest
      ports:
      - "8000:8000"
    redis:
-   image: redis:alpine
+     image: redis:alpine
    Review-Module:
      image: darshansbg/review-service
      ports:
