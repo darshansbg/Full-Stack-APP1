@@ -10,7 +10,7 @@ services:
      image: darshansbg/review-service
      ports:
      - "9000:9000"
-  Order-Module:
+   Order-Module:
      image: darshansbg/order-service
      ports:
      - "9500:9500"
